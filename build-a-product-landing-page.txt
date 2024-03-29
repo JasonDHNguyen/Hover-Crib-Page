@@ -1,0 +1,709 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stlyesheet" href="styles.css">
+    <title>Hover Crib</title>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.inspireuplift.com%2Fuploads%2Fimages%2Fseller_products%2F1678346190_Yo16.png&f=1&nofb=1&ipt=e6a1122cb8a605e8a64d3bee9942c2d35578df5cbe6866cf1dc1390c88a70233&ipo=images" alt="Baby Yoda hover crib image" loading="lazy" class="Yoda-header-image"">
+      <h1 id="company-name">Hover Cribs</h1>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#products"  class="nav-link">Products</a></li>
+          <li><a href="#purchase"  class="nav-link">Purchase</a></li>
+          <li><a href="#company"  class="nav-link">Company</a></li>
+          <li><a href="#contact-us"  class="nav-link">Contact Us</a></li>
+        </ul>
+        <select onchange="window.location.href=this.value">
+          <option value="#home">Home</option>
+          <option value="#products">Products</option>
+          <option value="#purchase">Purchase</option>
+          <option value="#company">Company</option>
+          <option value="#contact-us">Contact Us</option>
+        </select>
+      </nav>
+    </header>
+    <main>
+      <section class="main-section">
+        <h1 id="home">Introducing the Hover Crib</h1>
+        <div>
+          <iframe id="video" src="https://www.youtube.com/embed/nq4vTmFv_PE" title="Baby Yoda (Floating In A Pod) - Parry Gripp - Artwork by Nathan Mazur" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <!-- Youtube's default embed width/height = 1280x720 -->
+        </div>
+        <h2>The Future Is Now</h2>
+        <hr></hr>
+      </section>
+      <section id="products" class="main-section">
+        <article>
+          <h1 class="center-col">Our Products</h1>
+          <section class="sub-section product-info lefthalf-col">
+            <h2>Baby Hover Crib</h2>
+            <img class="two-col-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F9f%2Fea%2F50%2F9fea50f8a182a9c883e73d04f95024a9.jpg&f=1&nofb=1&ipt=d38240245cef7276811537c5040100d8d3e0237bcb852d6edda81028662a002d&ipo=images">
+            <p>A lightweight but durable titanium frame with a closeable hatch offers the best protection for your baby<sup>*</sup> against any incoming damage or weather. The interior consists of a padded, comfy fur lining with heating and cooling elements adjustable through the Hover Crib App<sup>TM</sup>. 
+            </p>
+              * Baby Yoda not included </p>
+          </section>
+          <section class="sub-section product-info righthalf-col">
+            <h2>Cat Hover Crib</h2>
+            <img class="two-col-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.etsystatic.com%2F20908830%2Fr%2Fil%2F0e4acd%2F2905088712%2Fil_794xN.2905088712_hgh6.jpg&f=1&nofb=1&ipt=73199b91681394eb6dcbf6daf5ef110bf74a74313b7a37e12d43e295ff50ad19&ipo=images">
+            <p>A sleek and stable triple folded aluminum frame with a closeable hatch offers your cat a sturdy but affordable defense against hostile elements. Interior consists of a fur-lined interior with a removeable, easy-to-clean litterbox as well as optional scratch pads makes for a pleasant crusing experience for your furry friends!</p>
+          </section>
+        </article>
+      </section>
+      <hr></hr>
+      <section id="purchase" class="main-section product-info">
+        <article>
+          <h1 class="center-col">Purchase Now!</h1>
+          <h2 class="center-col">Baby Hover Crib Pricing Options</h2>
+          <p class="center-col">Our Baby Hover Crib comes with 3 different pricing options to suit your respective needs!</p>
+          <section class="sub-section pricing-option">
+            <h3>Purchase:</h3>
+            <img class="three-col-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F7988%2F7988544.png&f=1&nofb=1&ipt=59ce0e57f3725c1324d95b28c9f98d61eb3f23743264548363736f0d39393c5a&ipo=images">
+            <p>Insert purchase info here</p>
+          </section>
+          <section class="sub-section pricing-option">
+            <h3>Long-term Rental:</h3>
+            <img class="three-col-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficons.veryicon.com%2Fpng%2Fo%2Fbusiness%2Ftime-management%2Fcalendar-337.png&f=1&nofb=1&ipt=edefd022ccc5d49e0fec46c9f8c7591394445c21d7405b8811af91fecae93f80&ipo=images">
+            <p>Insert long-term rental info here</p>
+          </section>
+          <section class="sub-section pricing-option">
+            <h3>Event rental:</h3>
+            <img class="three-col-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pinclipart.com%2Fpicdir%2Fbig%2F67-672440_birthdays-family-icon-vector-birthday-cake-clipart.png&f=1&nofb=1&ipt=d80380523bdb6021344582ad2ce61f8847c92b6cffe05e9adb541f52e959c608&ipo=images">
+            <p>Insert event rental info here</p>
+          </section>
+          <h2 class="center-col">Cat Hover Crib Pricing Options:</h2>
+          <p class="center-col">Our Cat Hover Crib comes with 2 different pricing options to suit your furry friends' needs!</p>
+          <section class="sub-section pricing-option lefthalf-col">
+            <h3>Purchase:</h3>
+            <img class="two-col-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fcatcommerce-white%2F120%2Fcart-512.png&f=1&nofb=1&ipt=9efb921185e5057fc39554db7f4a964a899950b8cd9c7abe91e24413398c1c68&ipo=images">
+            <p>Insert purchase info here</p>
+          </section>
+          <section class="sub-section pricing-option righthalf-col">
+            <h3>Daily rental:</h3>
+            <img class="two-col-img" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clipartbest.com%2Fcliparts%2FRTG%2F6Kg%2FRTG6Kgeqc.png&f=1&nofb=1&ipt=466ffabcc5a4f23068d8eff76a89375f89d00b0071ea53b1f85b53d0d59fed47&ipo=images">
+            <p>Insert daily rental info here</p>
+          </section> 
+        </article>
+      </section>
+      <hr></hr>
+      <section id="company" class="main-section">
+        <article>
+          <h1 class="center-col">Hover Crib Inc.</h1>
+          <section class="sub-section history lefthalf-col">
+            <h2>Our History</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna duis convallis convallis tellus id interdum velit. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Est velit egestas dui id. Massa id neque aliquam vestibulum morbi blandit cursus risus. Enim diam vulputate ut pharetra. Pellentesque diam volutpat commodo sed egestas. Duis convallis convallis tellus id interdum velit laoreet id. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Semper viverra nam libero justo laoreet sit amet. Sed elementum tempus egestas sed sed risus. Venenatis tellus in metus vulputate eu scelerisque. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Vitae semper quis lectus nulla at volutpat diam ut. Id ornare arcu odio ut sem nulla pharetra diam sit. Tristique senectus et netus et malesuada fames ac. Non quam lacus suspendisse faucibus interdum posuere.</p>
+          </section>
+          <section class="sub-section founders righthalf-col">
+            <h2>Founders</h2>
+            <h3>Big Yoda</h3>
+            <img class="two-col-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngmart.com%2Ffiles%2F12%2FStar-Wars-Master-Yoda-PNG-Picture.png&f=1&nofb=1&ipt=9d0ce863d89241eb74b20ef2f06c7e962a9c5f6634d2b6494d87b604cbbfb178&ipo=images">
+            <p>Buy our products, you will... Or paddling you, I will...</p>
+            <h3>Hover Cat</h3>
+            <img class="two-col-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F03%2F7d%2F74%2F037d74102807e1255128ab9e29783d65.jpg&f=1&nofb=1&ipt=575e67bfcb8949c8a930feaea3bb6a8d657f5033b320da21ae15216ac34ce960&ipo=images">
+            <p>I must go. My people need me.</p>
+          </section>
+        </article>
+      </section>
+      <hr></hr>
+      <section id="contact-us" class="main-section">
+        <h1>Contact Us:</h1>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+          <div id="user-input-email">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="someone@email.com"><br/>
+            <label for="email-message">Your Message:</label>
+            <textarea id="email-message" name="email-message" placeholder="Enter message here..." rows="4"></textarea>
+          </div>
+          <input id="submit" type="submit" value="Send">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/***************************/
+/* Actual code starts here */
+/***************************/
+:root {
+  --color-dark1: #124559;
+  --color-dark2: #01161e;
+  --color-middle: #598392;
+  --color-light1: #aec3b0;
+  --color-light2: #eff6e0;
+
+  background-color: var(--color-light);
+  color: var(--color-dark);
+
+  --step--2: clamp(0.6944rem, 0.5851rem + 0.5465vi, 1.2rem);
+  --step--1: clamp(0.8333rem, 0.6892rem + 0.7207vi, 1.5rem);
+  --step-0: clamp(1rem, 0.8108rem + 0.9459vi, 1.875rem);
+  --step-1: clamp(1.2rem, 0.9527rem + 1.2365vi, 2.3438rem);
+  --step-2: clamp(1.44rem, 1.1179rem + 1.6105vi, 2.9297rem);
+  --step-3: clamp(1.728rem, 1.3098rem + 2.0909vi, 3.6621rem);
+  --step-4: clamp(2.0736rem, 1.5322rem + 2.7071vi, 4.5776rem);
+  --step-5: clamp(2.4883rem, 1.7891rem + 3.4959vi, 5.722rem);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  background-color: var(--color-dark1);
+  color: var(--color-light1);
+  }
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  scroll-padding-top: 4em;
+}
+
+body {
+  width: calc(100vw-20px);
+  height: calc(100vh-20px);
+}
+
+#header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 3em;
+  width: 100%;
+  background-color: #01161e;
+  margin: 0 0 3em 0;
+}
+
+#header-img {
+  height: 3em;
+  object-fit: cover;
+}
+
+#company-name {
+  font-size: 2.5em;
+  width: clamp(3em, 40vw, 10em);
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 0.5em;
+  white-space: nowrap;
+}
+
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+
+#nav-bar ul li {
+  display: flex;
+  border: 1px solid;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--color-light2);
+  white-space: nowrap;
+  font-size: var(--step-1);
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+#nav-bar ul li:first-of-type {
+  border-radius: 3rem 0 0 3rem;
+}
+
+#nav-bar ul li:last-of-type {
+  border-radius: 0 3rem 3rem 0;
+}
+
+#nav-bar select {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  margin-right: 0;
+  padding-right: 0;
+  width: clamp(5em, 20vw, 15rem);
+  height: 3rem;
+  border-radius: 0.3rem;
+  color: var(--color-light2);
+  background-color: var(--color-middle);
+  font-size: var(--step-1);
+}
+
+main {
+  margin: 4em 1em 1em;
+}
+
+.main-section {
+  font-size: var(--step-2);
+  text-align: center;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0 1em;
+}
+
+h3 {
+  white-space: nowrap;
+}
+
+p {
+  text-align: left;
+  padding: 0 1em;
+}
+
+.sub-section {
+  grid-column: span 2;
+  font-size: var(--step-1);
+}
+
+#video {
+  width: 70vw;
+  height: calc(70vw/1.7777);
+}
+
+.two-col-img {
+  width: 100%;
+  height: calc(80vw/1.7777);
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.three-col-img {
+  width: 80%;
+  height: calc (30vw/1.7777);
+  object-fit: cover;
+  border-radius: 0.7rem;
+}
+
+#user-input-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-col {
+  grid-column: 1 / -1;
+}
+
+.lefthalf-col {
+  grid-column: 1 / span 3;
+}
+
+.righthalf-col {
+  grid-column: 4 / span 3;
+}
+
+.left-col {
+  grid-column: 1 / span 2;
+}
+
+.mid-col {
+  grid-column: 3 / span 2;
+}
+
+.right-col {
+  grid-column: 5 / span 2;
+}
+
+/*  */
+
+@media (max-width: 1000px) {
+  #nav-bar ul {
+    display: none;
+  }
+
+  #nav-bar select {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 450px) {
+  #nav-bar select {
+    display: none;
+  }
+
+  #nav-bar i {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 650px) {
+  article {
+    display: block;
+  }
+
+  .two-col-img {
+    width: 80%;
+    height: calc(100vw/1.7777);
+  }
+}
+
+** end of undefined **
+
