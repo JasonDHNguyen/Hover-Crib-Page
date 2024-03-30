@@ -556,7 +556,7 @@ p {
     display: none;
   }
 
-  #nav-bar select {
+#nav-bar select {
     display: inline-block;
   }
 }
@@ -566,7 +566,7 @@ p {
     display: none;
   }
 
-  #nav-bar i {
+#nav-bar i {
     display: inline-block;
   }
 }
